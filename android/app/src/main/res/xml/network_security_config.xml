@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+<!--  <base-config cleartextTrafficPermitted="true">-->
+<!--    <trust-anchors>-->
+<!--      <certificates src="system" />-->
+<!--    </trust-anchors>-->
+<!--  </base-config>-->
+  <domain-config cleartextTrafficPermitted="true">
+    <domain includeSubdomains="false">localhost</domain>
+    <!-- Add your IP if you want to use livereload on a device -->
+<!--    <domain includeSubdomains="true">172.67.148.215</domain>-->
+  </domain-config>
+</network-security-config>
